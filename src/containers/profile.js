@@ -3,7 +3,6 @@ import { connect } from 'react-redux'
 
 class Profile extends Component {
   render() {
-    console.log(this.props.test)
     return (
       <header id='header'>
         <div className='inner'>
@@ -25,7 +24,7 @@ class Profile extends Component {
 
 function mapStateToProps(state) {
   return {
-    test: state.test
+    projects: state.projects
   }
 }
 

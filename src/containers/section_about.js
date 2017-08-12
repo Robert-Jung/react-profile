@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 
 class SectionAbout extends Component {
   render() {
-    console.log(this.props.project)
+    console.log(this.props.projects)
     return (
       <section id="one">
         <header className="major">
@@ -20,7 +20,7 @@ class SectionAbout extends Component {
 
 function mapStateToProps(state) {
   return {
-    project: state.project
+    projects: state.projects
   }
 }
 
