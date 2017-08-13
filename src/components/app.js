@@ -3,6 +3,7 @@ import { Component } from 'react'
 
 import Profile from '../containers/profile'
 import SectionAbout from '../containers/section_about'
+import SectionProjects from '../containers/section_projects'
 
 export default class App extends Component {
   render() {
@@ -11,6 +12,7 @@ export default class App extends Component {
         <Profile />
         <div id='main'>
           <SectionAbout />
+          <SectionProjects />
         </div>
       </div>
     );

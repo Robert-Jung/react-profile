@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux'
 
-class Profile extends Component {
+export default class Profile extends Component {
   render() {
     return (
       <header id='header'>
@@ -21,11 +20,3 @@ class Profile extends Component {
     )
   }
 }
-
-function mapStateToProps(state) {
-  return {
-    projects: state.projects
-  }
-}
-
-export default connect(mapStateToProps)(Profile)

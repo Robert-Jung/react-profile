@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux'
 
-class SectionAbout extends Component {
+export default class SectionAbout extends Component {
   render() {
     console.log(this.props.projects)
     return (
@@ -17,11 +16,3 @@ class SectionAbout extends Component {
     )
   }
 }
-
-function mapStateToProps(state) {
-  return {
-    projects: state.projects
-  }
-}
-
-export default connect(mapStateToProps)(SectionAbout)
