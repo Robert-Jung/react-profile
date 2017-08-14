@@ -13,6 +13,7 @@ export default class Profile extends Component {
           <h3>Enter Description</h3>
           <ul className="icons">
             <li><a href="#" className="icon fa-github"><span className="label">Github</span></a></li>
+            <li><a href="#" className="icon fa-linkedin"><span className="label">Email</span></a></li>
             <li><a href="#" className="icon fa-envelope-o"><span className="label">Email</span></a></li>
           </ul>
         </div>
