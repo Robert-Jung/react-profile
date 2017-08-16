@@ -27,10 +27,6 @@ export default class SectionAbout extends Component {
                 United States
               </li>
               <li>
-                <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                000-000-0000
-              </li>
-              <li>
                 <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
                 <a href="#">hello@untitled.tld</a>
               </li>
