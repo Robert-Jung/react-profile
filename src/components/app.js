@@ -5,6 +5,7 @@ import Profile from '../containers/profile'
 import SectionAbout from '../containers/section_about'
 import SectionProjects from '../containers/section_projects'
 import SectionSkills from '../containers/section_skills'
+import SectionContact from '../containers/section_contact'
 
 export default class App extends Component {
   render() {
@@ -15,6 +16,7 @@ export default class App extends Component {
           <SectionAbout />
           <SectionProjects />
           <SectionSkills />
+          <SectionContact />
         </div>
       </div>
     );
